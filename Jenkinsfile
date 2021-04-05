@@ -1,12 +1,12 @@
 pipeline
 {
-  agent any
+  agent any 
   stages
   {
     
     stage ('git clone')
     { steps
-          {  sh ' echo downloading code' }
+          {  sh 'echo downloading code' }
      }
     
     stage ('code compile')
